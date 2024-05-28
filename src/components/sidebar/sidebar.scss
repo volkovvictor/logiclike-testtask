@@ -1,0 +1,22 @@
+.sidebar {
+    flex: 0 0 264px;
+    border: 1px solid #CFCFE4;
+    border-radius: 18px;
+    padding: 12px;
+
+    &__item {
+        line-height: 42px;
+        padding: 0 12px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all .2s ease;
+        &.active {
+            color: #ffffff;
+            background-color: #5FBF77;
+        }
+
+        &:hover:not(.active) {
+            background-color: #dadada;
+        }
+    }
+}
